@@ -1,0 +1,38 @@
+{
+    "source": "Simulated Dataset",
+    "date_collected": "2025-03-02T10:52:18.498050",
+    "data_type": "Leaked Credentials",
+    "content_type": "text",
+    "post_title": "Leaked Credentials Database",
+    "post_content": "Warning: This is a simulated dataset for educational purposes only.\n\nEmail\nUsername\nPassword\nSource\nrohannso14@gmail.com\njohndoe92\np@ssw0rd123\nSwiftPay\namanda.fox@email.com\namandafox99\nqwerty789\nChatNova\nmichael.raines@email.com\nmikeraines\nletmein456\nNetSecure\ncarla.mendes@email.com\ncmendes88\nhunterX2023\nDatadump247\njack.hunter@email.com\nhunterjack\npasspass77\nDarkIDMarket",
+    "data_details": [
+        "rohannso14@gmail.com",
+        "johndoe92",
+        "p@ssw0rd123",
+        "amanda.fox@email.com",
+        "amandafox99",
+        "qwerty789",
+        "michael.raines@email.com",
+        "mikeraines",
+        "letmein456",
+        "carla.mendes@email.com",
+        "cmendes88",
+        "hunterX2023",
+        "jack.hunter@email.com",
+        "hunterjack",
+        "passpass77"
+    ],
+    "poster_info": null,
+    "price": null,
+    "category_tags": [
+        "Leaked Data",
+        "Credentials",
+        "Simulated Data"
+    ],
+    "target_location": null,
+    "risk_level": "Low",
+    "url": "http://i66jl3agkk6ufrdilljvc75w6mwn34hrx5e6ixy25o2ovxyxiqck5jyd.onion/",
+    "threat_actor": null,
+    "target": [],
+    "threat_type": "Data Breach"
+}

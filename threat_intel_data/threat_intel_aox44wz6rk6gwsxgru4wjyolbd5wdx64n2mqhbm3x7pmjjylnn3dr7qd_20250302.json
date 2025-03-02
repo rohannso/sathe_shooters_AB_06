@@ -1,0 +1,87 @@
+[
+    {
+        "source": "Latest \u00e2\u0080\u009cUpdates\u00e2\u0080\u009d",
+        "date_collected": "2025-03-02T10:52:29.828295",
+        "data_type": "News",
+        "content_type": "Text",
+        "post_title": "[2025-03-15] New Data Dumps",
+        "post_content": "Alleged stolen credentials from \u00e2\u0080\u009cSafeBank\u00e2\u0080\u009d and \u00e2\u0080\u009cSkyMail\u00e2\u0080\u009d are rumored to appear soon on darkforums5678test.onion.",
+        "data_details": "Alleged stolen credentials from SafeBank and SkyMail",
+        "poster_info": "",
+        "price": "",
+        "category_tags": [
+            "Data Breach",
+            "Credentials Theft"
+        ],
+        "target_location": [
+            "SafeBank",
+            "SkyMail"
+        ],
+        "risk_level": "High",
+        "url": "http://aox44wz6rk6gwsxgru4wjyolbd5wdx64n2mqhbm3x7pmjjylnn3dr7qd.onion/",
+        "threat_actor": "",
+        "target": [],
+        "threat_type": "Data Breach"
+    },
+    {
+        "source": "Latest \u00e2\u0080\u009cUpdates\u00e2\u0080\u009d",
+        "date_collected": "2025-03-02T10:52:29.828295",
+        "data_type": "News",
+        "content_type": "Text",
+        "post_title": "[2025-03-16] New Ransomware Tool",
+        "post_content": "A post claims a \u00e2\u0080\u009czero-day\u00e2\u0080\u009d exploit kit is being tested on abcxyz1234hijack.onion. Actual details are unverified.",
+        "data_details": "Zero-day exploit kit",
+        "poster_info": "",
+        "price": "",
+        "category_tags": [
+            "Ransomware",
+            "Exploit Kit"
+        ],
+        "target_location": [],
+        "risk_level": "High",
+        "url": "http://aox44wz6rk6gwsxgru4wjyolbd5wdx64n2mqhbm3x7pmjjylnn3dr7qd.onion/",
+        "threat_actor": "",
+        "target": [],
+        "threat_type": "Ransomware"
+    },
+    {
+        "source": "Latest \u00e2\u0080\u009cUpdates\u00e2\u0080\u009d",
+        "date_collected": "2025-03-02T10:52:29.828295",
+        "data_type": "News",
+        "content_type": "Text",
+        "post_title": "[2025-03-17] Forum Overhaul",
+        "post_content": "Users report that darkforums5678test.onion has added new discussion boards for social engineering techniques.",
+        "data_details": "New discussion boards for social engineering techniques",
+        "poster_info": "",
+        "price": "",
+        "category_tags": [
+            "Social Engineering"
+        ],
+        "target_location": [],
+        "risk_level": "Medium",
+        "url": "http://aox44wz6rk6gwsxgru4wjyolbd5wdx64n2mqhbm3x7pmjjylnn3dr7qd.onion/",
+        "threat_actor": "",
+        "target": [],
+        "threat_type": "Social Engineering"
+    },
+    {
+        "source": "Latest \u00e2\u0080\u009cUpdates\u00e2\u0080\u009d",
+        "date_collected": "2025-03-02T10:52:29.828295",
+        "data_type": "News",
+        "content_type": "Text",
+        "post_title": "[2025-03-18] Tool Update",
+        "post_content": "The simulated tool repository at shadowtools.onion has been refreshed with new exploits.",
+        "data_details": "New exploits",
+        "poster_info": "",
+        "price": "",
+        "category_tags": [
+            "Exploits"
+        ],
+        "target_location": [],
+        "risk_level": "High",
+        "url": "http://aox44wz6rk6gwsxgru4wjyolbd5wdx64n2mqhbm3x7pmjjylnn3dr7qd.onion/",
+        "threat_actor": "",
+        "target": [],
+        "threat_type": "Exploits"
+    }
+]

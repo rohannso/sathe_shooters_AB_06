@@ -1,0 +1,39 @@
+
+[
+    {
+        "user_id": 1,
+        "username": "johndoe92",
+        "email": "rohannso14@gmail.com",
+        "alias": "john_doe"
+    },
+    {
+        "user_id": 2,
+        "username": "amandafox99",
+        "email": "amanda.fox@email.com",
+        "alias": "amanda_fox"
+    },
+    {
+        "user_id": 3,
+        "username": "mikeraines",
+        "email": "michael.raines@email.com",
+        "alias": "mike_raines"
+    },
+    {
+        "user_id": 4,
+        "username": "cmendes88",
+        "email": "carla.mendes@email.com",
+        "alias": "carla_mendes"
+    },
+    {
+        "user_id": 5,
+        "username": "hunterjack",
+        "email": "jack.hunter@email.com",
+        "alias": "jack_hunter"
+    },
+    {
+        "user_id": 6,
+        "username": "rohan",
+        "email": "rohannso14@gmail.com",
+        "alias": "rohan"
+    }
+]

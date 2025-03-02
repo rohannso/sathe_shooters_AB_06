@@ -1,0 +1,22 @@
+[
+  {
+    "alert_time": "2025-03-02T10:39:46.075194",
+    "scraped_data": {
+      "post_title": null,
+      "post_content": "Dark Matter | Dark Web Intelligence\n\nDark Matter | Dark Web Intelligence\n\nDark Web Market Simulation\nA hackathon project demonstrating intelligence gathering from dark web marketplaces.\n\nDark Web Categories\n\nDrugs & Illicit Substances\nIllegal drug sales including opioids, stimulants, and synthetic drugs.\n\nHacked Accounts & Stolen Data\nCompromised credentials and personal data available for sale.\n\nMalware, Exploits, & Hacking Tools\nZero-day exploits, remote access trojans (RATs), and hacking toolkits.\n\nFake Documents & Counterfeit Money\nCounterfeit passports, IDs, and cryptocurrency fraud schemes.\n\nWeapons & Other Illegal Items\nUnregistered firearms, explosives, and black-market weaponry.\n\nLeaked Company & Individual Data (Simulated)\n\nNeoTech Systems\nEmail & Passwords - 12,000 Records\n\nHyperBank Inc.\nCredit Card Details - 8,500 Records\n\nCloudSecure Ltd.\nAPI Keys & Internal Docs - 5,200 Records\n\nExposed Individuals (Simulated)\n\nJohn Doe\nEmail: john.doe@neotech.com\nLeaked Credentials\n\nSarah Smith\nEmail: sarah.smith@hyperbank.com\nCredit Card Data\n\nMichael Johnson\nEmail: michael.j@cloudsecure.com\nInternal Documents",
+      "post_url": "http://7ctfvr7kp7scmqzinimkxqxpbrruyh2jddzyrn26qaw3wotdk2lvkzid.onion/",
+      "analysis": "User found: johndoe92, john.doe@neotech.com -  Potential threat: Leaked credentials associated with the simulated user \"John Doe\" match a registered user's details."
+    },
+    "alert_message": "User data found in post: None"
+  },
+  {
+    "alert_time": "2025-03-02T10:39:51.313717",
+    "scraped_data": {
+      "post_title": "Leaked Credentials Database",
+      "post_content": "Warning: This is a simulated dataset for educational purposes only.\n\nEmail\tUsername\tPassword\tSource\nrohannso14@gmail.com\tjohndoe92\tp@ssw0rd123\tSwiftPay\n amanda.fox@email.com\t amandafox99\t qwerty789\tChatNova\n michael.raines@email.com\t mikeraines\t letmein456\tNetSecure\n carla.mendes@email.com\t cmendes88\t hunterX2023\tDatadump247\n jack.hunter@email.com\t hunterjack\t passpass77\tDarkIDMarket",
+      "post_url": "http://i66jl3agkk6ufrdilljvc75w6mwn34hrx5e6ixy25o2ovxyxiqck5jyd.onion/",
+      "analysis": "User found: johndoe92, rohannso14@gmail.com -  Potential threat:  The post includes a registered username and email which might indicate a data breach or exposure of sensitive information. \n\n\nLet me explain why this is flagged as a potential threat:\n\n* **Exposure of Credentials:**  Seeing a username and email together in a public context like this post raises concern. It suggests that this user's login information might have been compromised and is now being shared.\n* **Data Breach Implication:** The fact that the post is labeled as a \"simulated dataset\" doesn't eliminate the risk. It's possible this data is based on a real breach, or attackers could be using this format to test for vulnerabilities. \n\n\n\nLet me know if you have any other content you'd like me to analyze!"
+    },
+    "alert_message": "User data found in post: Leaked Credentials Database"
+  }
+]
