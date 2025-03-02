@@ -30,120 +30,48 @@ dark-web-threat-intel/
 │   └── alerts_*.json         # Generated alerts
 └── requirements.txt          # Project dependencies
 
-
 ---
 
 ## 🚀 Installation
 
 ### 1️⃣ Clone the repository
-bash
- git clone https://github.com/yourusername/dark-web-threat-intel.git && cd dark-web-threat-intel
+```bash
+git clone https://github.com/yourusername/dark-web-threat-intel.git && cd dark-web-threat-intel
+```
 
-
-### 2️⃣ Install dependencies
-bash
- pip install -r requirements.txt
-
-
-### 3️⃣ Set up your Groq API key
-Edit alert_system.py and replace your_groq_api_key with your actual API key:
-python
-llm = ChatGroq(api_key="your_groq_api_key", model="gemma2-9b-it")
-
-
-### 4️⃣ Update file paths in the Python files to match your system.
-
----
-
-## 🔧 Usage
-
-### Running the Backend
-bash
- python app.py
-
-This initiates the core backend system for threat detection.
-
-### Launching the Streamlit Dashboard
-bash
- streamlit run steam.py
-
-This opens the interactive threat intelligence dashboard in your web browser.
-
-### Running the Alert System
-bash
- python alert_system.py
-
-This starts the alert system, which checks for mentions of registered users in the scraped dark web data every 3 hours.
-
----
-
-## 🔍 Simulated Dark Web Environment
+🔍 Simulated Dark Web Environment
 This project uses a custom-built simulated dark web environment for testing and demonstration purposes. This approach:
-- Eliminates legal and ethical concerns associated with actual dark web access
-- Provides a controlled environment for testing the system's capabilities
-- Allows for safe demonstration and educational purposes
-- Prevents accidental exposure to malicious content or illegal activities
 
-*Under no circumstances should this tool be modified to scrape or interact with actual dark web sites.*
+Eliminates legal and ethical concerns associated with actual dark web access
+Provides a controlled environment for testing the system's capabilities
+Allows for safe demonstration and educational purposes
+Prevents accidental exposure to malicious content or illegal activities
+Under no circumstances should this tool be modified to scrape or interact with actual dark web sites.
 
----
-
-## 🛠 How It Works
-
-1. *Data Collection* - The system collects data from the simulated dark web environment and stores it in JSON files.
-2. *LLM Analysis* - Content is analyzed using the Groq LLM (Gemma2-9b-it) to detect references to registered users.
-3. *Alert Generation* - Alerts are created when user references are found.
-4. *Visualization* - The Streamlit dashboard provides a user-friendly interface to explore threat data.
-
----
-
-## 📊 Dashboard Features
-✔ *Overview metrics* - Track detected threats and alerts  
-✔ *Search functionality* - Filter by source, target, or keyword  
-✔ *Date filtering* - Analyze historical threats  
-✔ *Risk levels & recommendations* - Understand the severity and next steps  
-
----
-
-## 🔧 Customization
-
-### Adjusting Scan Frequency
-Modify the sleep duration in alert_system.py to change how often the system checks for new threats:
-python
-time.sleep(10800)  # Default: 3 hours (10800 seconds)
+We have built our own dark web-based environment which acts exactly like the dark web using Tor.
 
 
-### Adding Users to Monitor
-Update the registered_users.json file to include additional users:
-json
-{
-    "user_id": 7,
-    "username": "new_user",
-    "email": "new.user@email.com",
-    "alias": "new_user_alias"
-}
+🛠 How It Works
+Data Collection - The system collects data from the simulated dark web environment and stores it in JSON files.
+LLM Analysis - Content is analyzed using the Groq LLM (Gemma2-9b-it) to detect references to registered users.
+Alert Generation - Alerts are created when user references are found.
+Visualization - The Streamlit dashboard provides a user-friendly interface to explore threat data.
+📊 Dashboard Features
+✔ Overview metrics - Track detected threats and alerts
+✔ Search functionality - Filter by source, target, or keyword
+✔ Date filtering - Analyze historical threats
 
 
----
+📊 Dashboard Features
+✔ Overview metrics - Track detected threats and alerts
+✔ Search functionality - Filter by source, target, or keyword
+✔ Date filtering - Analyze historical threats
+✔ Risk levels & recommendations - Understand the severity and next steps
 
-## 🔒 Security Considerations
-- *Store API keys securely* and never commit them to version control.
-- *Regularly update the registered users list* to reflect personnel changes.
-- *Review alerts promptly* and take recommended security actions.
-- *Use a VPN or Tor* when deploying in production environments.
-- *NEVER attempt to use this tool with actual dark web sites or services.*
-
----
-
-## 🔮 Future Enhancements
-🔹 Integration with SIEM systems for centralized security monitoring  
-🔹 Expanded simulated dark web environment for testing  
-🔹 Machine learning models for improved threat classification  
-🔹 Email notifications for critical alerts  
-🔹 User authentication for the dashboard  
-🔹 Historic trend analysis and reporting  
-
-
-
-link of demo video
-https://drive.google.com/file/d/1J1nus31sf2sn6fFVjqFtYN5Pm93E0uFM/view?usp=drive_link
+🔒 Security Considerations
+Store API keys securely and never commit them to version control.
+Regularly update the registered users list to reflect personnel changes.
+Review alerts promptly and take recommended security actions.
+Use a VPN or Tor when deploying in production environments.
+NEVER attempt to use this tool with actual dark web sites or services.
+link of demo video https://drive.google.com/file/d/1J1nus31sf2sn6fFVjqFtYN5Pm93E0uFM/view?usp=drive_link ```
