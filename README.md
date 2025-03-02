@@ -60,11 +60,13 @@ This initiates the core backend system for threat detection.
 
 2. Then launch the Streamlit dashboard:
 bash
-streamlit run stream.py
+streamlit run steam.py
 
 This launches the interactive threat intelligence dashboard in your web browser, which connects to the backend.
 
-
+### Running the Alert System
+bash
+python alert_system.py
 
 This will start the alert system that periodically checks for mentions of registered users in the scraped dark web data. By default, it checks every 3 hours.
 
@@ -123,5 +125,17 @@ json
 - Consider using a VPN or Tor when deploying in production environments
 - *NEVER attempt to use this tool with actual dark web sites or services*
 
+## Future Enhancements
 
-<video controls src="Screen Recording 2025-03-02 105432-1.mp4" title="Demo video"></video>
+- Integration with SIEM systems for centralized security monitoring
+- Expanded simulated dark web environment for more comprehensive testing
+- Machine learning models for improved threat classification
+- Email notifications for critical alerts
+- User authentication for the dashboard
+- Historic trend analysis and reporting
+
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
